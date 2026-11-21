@@ -1,0 +1,41 @@
+{
+  "timestamp": 1795239217.2117188,
+  "total_scenarios": 50,
+  "service_accuracy_percent": 100.0,
+  "category_accuracy_percent": 100.0,
+  "mean_latency_ms": 1.6,
+  "p95_latency_ms": 3.6,
+  "total_wall_time_s": 0.08,
+  "per_scenario_breakdown": {
+    "db_pool_exhaustion": {
+      "total": 10,
+      "service_accuracy_percent": 100.0,
+      "category_accuracy_percent": 100.0,
+      "avg_latency_ms": 1.8
+    },
+    "memory_leak": {
+      "total": 10,
+      "service_accuracy_percent": 100.0,
+      "category_accuracy_percent": 100.0,
+      "avg_latency_ms": 1.5
+    },
+    "cascading_503": {
+      "total": 10,
+      "service_accuracy_percent": 100.0,
+      "category_accuracy_percent": 100.0,
+      "avg_latency_ms": 1.7
+    },
+    "config_regression": {
+      "total": 10,
+      "service_accuracy_percent": 100.0,
+      "category_accuracy_percent": 100.0,
+      "avg_latency_ms": 1.4
+    },
+    "cache_stampede": {
+      "total": 10,
+      "service_accuracy_percent": 100.0,
+      "category_accuracy_percent": 100.0,
+      "avg_latency_ms": 1.6
+    }
+  }
+}
